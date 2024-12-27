@@ -1,0 +1,26 @@
+.contacts-container {
+    width: 30%;
+    background-color: #e5ddd5;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  
+  .contact {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .contact.active {
+    background-color: #dcf8c6;
+  }
+  
